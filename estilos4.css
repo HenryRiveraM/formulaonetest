@@ -1,0 +1,136 @@
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background-color: #f7f8fa;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    margin: 0; /* Elimina márgenes globales */
+}
+
+header {
+    padding: 30px 20px;
+    background-color: rgb(238, 0, 0);
+    color: white;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.header-image {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Elimina márgenes de la imagen */
+}
+
+.small-image {
+    width: 40%;
+}
+
+main {
+    padding: 0; /* Elimina padding en el contenedor principal */
+    background-color: white;
+    color: #333;
+    grid-column: 2 / 3;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0; /* Asegura que no haya espacio en la parte superior */
+}
+
+aside {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.aside-left {
+    grid-column: 1 / 2;
+}
+
+.aside-rigth {
+    grid-column: 3 / 4;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(238, 0, 0);
+    color: white;
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.centered-content {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-text {
+    font-size: 1.1em;
+    margin-top: 15px;
+    color: #555;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.additional-text {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 20px;
+}
+
+.chat-button {
+    display: inline-block;
+    background-color: rgb(238, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+    background-color: rgb(238, 0, 0);
+}
+
+footer p {
+    font-size: 0.9em;
+}
